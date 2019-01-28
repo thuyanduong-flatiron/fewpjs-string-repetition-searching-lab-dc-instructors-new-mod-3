@@ -1,5 +1,9 @@
-const testVar = {}
+heyJude = () => {
+  let verse = "Na na na na na na na, na na na na, hey Jude."
+  return verse.repeat(16)
+}
 
-function testFunc() {
-  return "hi"
+prohibitedLanguage = () => {
+  var bannedWords = /candycorn|brusselssprouts/;
+  return string.search(bannedWords);  
 }
