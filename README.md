@@ -36,6 +36,9 @@ and conditionals looks like this:
 function repeat(str, num) {
     return (new Array(num+1)).join(str); 
 }
+
+repeat("foo",3)
+//=> "foofoofoo"
 ```
 
 ### String Repitition With JavaScript's `repeat()` Method
@@ -46,6 +49,7 @@ a couple of lines:
 
 ```js
 "foo".repeat(3)
+//=> "foofoofoo"
 ```
 
 ## Demonstrate Searching in JavaScript
