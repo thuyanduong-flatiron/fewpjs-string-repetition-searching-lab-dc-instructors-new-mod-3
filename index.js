@@ -1,9 +1,8 @@
-heyJude = () => {
-  let verse = "Na na na na na na na, na na na na, hey Jude."
+let heyJude = (verse) => {
   return verse.repeat(16)
 }
 
-prohibitedLanguage = () => {
-  var bannedWords = /candycorn|brusselssprouts/;
+let prohibitedLanguage = (string) => {
+  let bannedWords = /candycorn|brusselssprouts/;
   return string.search(bannedWords);  
 }
