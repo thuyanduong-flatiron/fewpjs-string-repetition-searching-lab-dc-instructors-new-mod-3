@@ -5,7 +5,7 @@
 * Demonstrate string repitition in JavaScript
 * Demonstrate searching in JavaScript
 * Use `repeat()` to duplicate strings
-* Declare a search function
+* Declare a function that utilizes `search()` method
 
 ## Introduction
 
@@ -81,7 +81,7 @@ record.
 * Create a function called `heyJude` that repeats the lyric "Na na na na na na
 na, na na na na, hey Jude." 16 times.
 
-## Declare a search function
+## Declare a Function that Utilizes the `search()` Method
 
 We have an online forum and don't want people to be able to create usernames 
 that include swear words or other offensive language. Let's use the `search()`
