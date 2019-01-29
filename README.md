@@ -121,5 +121,4 @@ search a specified pattern and return its index, we can use `search()` with a
 ## Resources
 * [MDN: String.prototype.repeat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)
 * [MDN: String.prototype.search()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search)
-*
 * [An Introduction to Regular Expressions (Regex) In JavaScript](https://codeburst.io/an-introduction-to-regular-expressions-regex-in-javascript-1d3559e7ac9a)
