@@ -10,31 +10,32 @@
 ## Introduction
 
 Working with `String` values is one of the most popular functions
-in JavaScript. Strings are objects within the JavaScript language.
-Strings are not treated the same as arrays, so built-in functions
-must be used to work with their values. We have various functions
-that provide ways to access or manipulate the contents of a string
-such as with repitition and searching.
+in JavaScript. Strings are objects in the JavaScript language, and
+working with their values is one of the most common tasks a JavaScript
+developer performs. We have various functions that provide ways to
+access or manipulate the contents of a string such as with repitition
+and searching.
 
 ## Demonstrate String Repitition in JavaScript
 
 Ever needed to repeat a string or character multiple times? If not,
-Think of a scenario such as a song with lyrics that is repeated over
+think of a scenario such as a song with lyrics that is repeated over
 and over again. There have been a number of complex ways to do such a
-simple operation with loops, but now `repeat()` available in JavaScript!
+simple operation with loops, but now `repeat()` is available in JavaScript!
 
 ### Manual String Repitition
 
 Even though we can now leverage the `repeat()` method that has been added
 to the ECMAScript 2015 specification, it may not be available in all
-implementations yet.
+implementations yet. It will be useful to know how to write a simpler version
+of the function manually.
 
 The most scaled down implementation of a repeater function without loops
 and conditionals looks like this:
 
 ```js
 function repeat(str, num) {
-    return (new Array(num+1)).join(str); 
+  return (new Array(num+1)).join(str); 
 }
 
 repeat("foo",3)
@@ -115,7 +116,7 @@ many powerful built-in functions that make working with strings easier. The
 concatentates the specified number of copies you indicated. With `repeat()`, so
 we no longer have to build up the string some other way. When we want to quickly
 search a specified pattern and return its index, we can use `search()` with a
-`String` or regular expression, which allows us to match neary _any) string/phrase.
+`String` or regular expression, which allows us to match neary _any_ string/phrase.
 
 ## Resources
 * [MDN: String.prototype.repeat()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/repeat)
