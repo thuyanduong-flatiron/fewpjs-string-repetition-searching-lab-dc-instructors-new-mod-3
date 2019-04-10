@@ -94,10 +94,10 @@ method to find inappropriate words in usernames and reject them if any are found
 
 When creating a regular expression, it must be surrounded with slashes:
 `/regular expression/`. With that knowledge a search string with the word 
-"pinapplepizza" is inside it looks like this:
+"pineapplepizza" is inside it looks like this:
 
 ```js
-let myRegExp = /pinapplepizza/;
+let myRegExp = /pineapplepizza/;
 ```
 
 * Create a function called `prohibitedLanguage` that will prevent usernames with
