@@ -59,7 +59,7 @@ Knowing if something is or isn't in a string can be very important.
 When you want to know whether a pattern is found in a string use `search()`.
 `search()` method executes the search for a match between a `String` or a
 _regular expression_ and the search `String`. In JavaScript, a regular
-expression is a type is used to match character combinations in strings.
+expression is used to match character combinations in strings.
 
 This method searches the string for the specified value and returns its
 position of the match. The search value can be the string or the regular
